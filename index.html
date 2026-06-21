@@ -281,8 +281,8 @@
      orders are only saved locally — see SETUP.md section 4. -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-  var SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';
-  var SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+  var SUPABASE_URL = 'https://mtfggtjuzniwzecqfrdb.supabase.co';
+  var SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im10ZmdndGp1em5pd3plY3FmcmRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwMjE2MDQsImV4cCI6MjA5NzU5NzYwNH0.4o1LZQQA9_1ptpm-TxQbU8WDLhV4dMppzKcsuSWB5r0';
   var supabaseClient = (SUPABASE_URL.indexOf('YOUR_') === 0)
     ? null
     : window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
